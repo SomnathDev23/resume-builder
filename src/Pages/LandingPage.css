@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+    color: #0093E9;
+    text-align: center;
+    background: linear-gradient(90deg, #5ffaff, #8c7bfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.entry-box {
+    /* display: flex; */
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    /* background-color: black; */
+
+}
+
+.btn-box {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-3d {
+    background-color: wheat;
+    /* Button background color */
+    border: none;
+    color: grey;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 4px 6px #666;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-3d:hover {
+    background-color: rgb(198, 140, 32);
+}
+
+.btn-3d:active {
+    background-color: rgb(209, 157, 61);
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
+}

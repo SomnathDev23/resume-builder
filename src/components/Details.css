@@ -1,0 +1,46 @@
+.details-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-family: 'Mate', serif; /* Ensure you have the Mate font-family available or import it */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-wrapper .form-control {
+    flex: 1;
+  }
+  
+  .input-wrapper .input-group-text {
+    min-width: 100px;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  

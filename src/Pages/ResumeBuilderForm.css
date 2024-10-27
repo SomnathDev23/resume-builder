@@ -1,0 +1,16 @@
+.btnorange {
+    background-color: hsl(34, 100%, 47%);
+    background: hsl(34, 100%, 47%);
+    height: 40px;
+    width: 80px;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+.btn-container {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    /* background-color: khaki; */
+}
